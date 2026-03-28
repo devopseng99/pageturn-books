@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #FFFBEB;
+  color: #451A03;
+}
+
+@layer utilities {
+  .gradient-book {
+    background: linear-gradient(135deg, #78350F 0%, #991B1B 50%, #78350F 100%);
+  }
+  .gradient-parchment {
+    background: linear-gradient(135deg, #FEF3C7 0%, #FFFBEB 50%, #FDE68A 100%);
+  }
+  .gradient-warm {
+    background: linear-gradient(135deg, #FDE68A 0%, #FEF3C7 100%);
+  }
+  .gradient-hero {
+    background: linear-gradient(135deg, #78350F 0%, #451A03 60%, #991B1B 100%);
+  }
+}
